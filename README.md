@@ -53,7 +53,7 @@ To use these scripts:
    git clone https://github.com/<your_username>/<repository_name>.git
    cd <repository_name>
    ```
-2. Place the required tools (WinGet, FFmpeg, yt-dlp) in your system PATH.
+2. Place the required tools (WinGet, FFmpeg, yt-dlp, Rubber Ducky tools) in your system PATH.
 3. Run the desired script by double-clicking it or executing it via the command line.
 
 ---
@@ -104,6 +104,13 @@ Here are examples for using each script:
    Youtube download premium.bat
    ```
 
+### 4. Text to Rubber Ducky Script
+- **Convert text to Ducky payload:**
+   ```cmd
+   Text2Ducky.cmd
+   ```
+   Converts a plain text file into a Rubber Ducky payload script for automated keystrokes.
+
 ---
 
 ## Scripts Details
@@ -117,6 +124,9 @@ The `ffmpegToISO.bat` script automates ISO creation from various media formats.
 
 ### YouTube Download
 Scripts utilize **yt-dlp**, a robust tool for downloading YouTube content, including premium videos where applicable.
+
+### Text2Ducky Script
+The `Text2Ducky.cmd` script converts a text input file into a DuckyScript-compatible payload. Useful for automating tasks with a Hak5 USB Rubber Ducky.
 
 ---
 
@@ -146,4 +156,3 @@ https://www.joaquinlab.com/
 ---
 
 Enjoy automating your workflows with these scripts! 🚀
-
