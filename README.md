@@ -126,7 +126,7 @@ The `ffmpegToISO.bat` script automates ISO creation from various media formats.
 Scripts utilize **yt-dlp**, a robust tool for downloading YouTube content, including premium videos where applicable.
 
 ### Text2Ducky Script
-The `Text2Ducky.cmd` script converts a text input file into a DuckyScript-compatible payload. Useful for automating tasks with a Hak5 USB Rubber Ducky.
+The `Text2Ducky.cmd` script converts a text file stored in the same folder as the app into a DuckyScript-compatible payload. Useful for automating tasks with a Hak5 USB Rubber Ducky.
 
 ---
 
