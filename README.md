@@ -2,7 +2,7 @@
 
 # Batch Scripts Collection
 
-This repository contains a set of Windows batch scripts designed to automate various tasks, including package management with **WinGet**, YouTube video downloads, and DVD/ISO processing. These scripts streamline software updates, backups, and media handling, saving time and effort.
+This repository contains a set of Windows batch scripts designed to automate various tasks, including package management with **WinGet**, YouTube video downloads, DVD/ISO processing, and text-to-Rubber Ducky payload conversion. These scripts streamline software updates, backups, and media handling, saving time and effort.
 
 ---
 
@@ -29,6 +29,7 @@ This repository includes the following batch scripts:
 | `DVDtoISO.bat`               | Converts DVDs into ISO images.                          |
 | `Youtube download.bat`       | Downloads YouTube videos using `yt-dlp`.                |
 | `Youtube download premium.bat` | Downloads premium YouTube videos via `yt-dlp`.        |
+| `Text2Ducky.cmd`             | Converts text files into Rubber Ducky payload scripts.  |
 
 ---
 
@@ -38,6 +39,7 @@ Ensure you have the following tools installed and available in your system PATH:
 1. **WinGet**: Microsoft Windows Package Manager - [Install WinGet](https://aka.ms/getwinget)
 2. **FFmpeg**: For media conversions - [Download FFmpeg](https://ffmpeg.org/download.html)
 3. **yt-dlp**: Advanced YouTube downloader - [Install yt-dlp](https://github.com/yt-dlp/yt-dlp)
+4. **DuckyScript Tools**: For Rubber Ducky payload processing - [Learn more](https://docs.hak5.org/)
 
 **Optional:**
 - DVD handling tools (if using `DVDtoISO.bat`)
